@@ -1,0 +1,8 @@
+name    'riteshnanda09-iniread'
+version '0.0.1'
+source 'https://github.com/riteshnanda09/iniread.git'
+author 'Ritesh Nanda'
+license 'Apache License, Version 2.0'
+description 'Puppet module to read a ini file and return the key value to a variable'
+project_page 'https://forge.puppetlabs.com/riteshnanda09/iniread'
+
