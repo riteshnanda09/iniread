@@ -31,7 +31,7 @@ Command1=RegExistKey(@RegMachine,"SOFTWARE\McAfee\AVEngine")
 Value1=1
 
 
-init.pp
+init.pp file will have
 
 $pathname = '/etc/example.ini'
 
@@ -42,6 +42,3 @@ $val3 = inireadvalue("$pathname/example.ini", "Check1", Type")
 notify {"values":
     name     => "Value are '$val1' '$val2' '$val3'",
 }
-
-
-
